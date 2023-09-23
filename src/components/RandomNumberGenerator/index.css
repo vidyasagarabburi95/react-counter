@@ -1,0 +1,54 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.bgContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shortContainer {
+  background-color: #ffffff;
+  height: 260px;
+  width: 300px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0b69ff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  margin: 10px;
+  text-align: center;
+}
+button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 36px;
+  width: 110px;
+  border-radius: 8px;
+  border: 0px;
+  margin: 10px;
+}
+.count {
+  font-size: 26px;
+  font-weight: 500;
+  color: #0b69ff;
+  margin: 10px;
+}
